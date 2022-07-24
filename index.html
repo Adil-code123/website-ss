@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <title>Secret Society Mint</title>
+</head>
+
+<script>
+    
+</script>
+<body>
+    
+    <audio autoplay="" loop="" src="Images/Music.mp3"  id="song"></audio>
+    <div class="header">
+        <div class="inner">
+            <div class="logo_container">
+                <img src="Images/logo.png" onclick="home()">
+
+            </div>
+
+            <ul class="navigation" id="menuList">
+                <a id="hello"><li>HEAR US</li></a>
+                <a href="https://twitter.com/ssnft_xyz" target="_blank"><li>TWITTER</li></a>
+                <a><li>INEVITABLE</li></a>
+                <a><li>WORTHY ONE</li></a>
+            </ul>
+            <img src="Images/menu.png" class="menu" onclick="togglemenu()">  
+        </div>
+    </div>
+    <div class="terminal" id="terminal">
+        <button id="connect-button" class="btn" onclick="btn()">
+            CONNECT WALLET
+        </button>
+    </div>
+    <div id="class"class="terminal2">
+        <div id = 'class1' class="line-1" onclick="next()">
+            INITIALISING REQUEST___>
+        </div>
+        <div id="class2" class="second_text" onclick="next2()">
+            CONNECTING TO SERVER SIDE AUTH__>
+        </div>
+        <div id="class3" class="third_text" onclick="next3()">
+            VERIFYING WORTHY ONE STATUS __>
+
+        </div>
+
+    </div>
+    <div id="class4" class="terminal3">
+        <button class="btn" onclick="scramble()">
+            MINT
+        </button>
+        <div id='output' ></div>
+    </div>
+
+    <script src="myscripts.js"></script>
+</body>
+</html>

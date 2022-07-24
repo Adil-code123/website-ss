@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'approach mono';
+    src: url(fonts/ApproachMonoRegular.eot);
+    src: url(fonts/ApproachMonoRegular.woff) format('embedded-opentype'),
+        url(fonts/ApproachMonoRegular.woff2) format('woff2'),
+        url(fonts/ApproachMonoRegular.woff) format('woff'),
+        url(fonts/ApproachMonoRegular.ttf) format('truetype'),
+        url(fonts/ApproachMonoRegular.svg) format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,397 @@
+body {
+    background-color: black;
+}
+@font-face {
+    font-family: 'approach mono';
+    src: url(fonts/ApproachMonoRegular.ttf);
+}
+
+.terminal {
+    background-image: url(images/Final.jpg);
+    width: 730px;
+    height: 560px;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.terminal2 {
+    background-image: url(images/Final.jpg);
+    width: 730px;
+    height: 560px;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    visibility: hidden;
+}
+.active {
+    visibility: visible;
+}
+.terminal3 {
+    background-image: url(images/Final.jpg);
+    width: 730px;
+    height: 560px;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    visibility: hidden;
+}
+
+.active1 {
+    visibility: visible;
+}
+
+
+
+.btn {
+    width: 300px;
+    height: 100px;
+    font-size: 30px;
+    font-family: 'approach mono' ;
+    color: #2ae57c;
+    background-color: black;
+    border: 2px solid #2ae57c;
+    position: absolute;
+    top: 77%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: red;
+    border: 2px solid red;
+}
+
+.inner{
+    width: 96%; /* This is the inner width of the content inside of your header (80%, etc) */
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: #003414;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #003414;
+    
+}
+.logo_container {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container div{
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.logo_container img{
+    position: absolute;
+    height: 45px;
+    margin-top: 18px; /* Optical alignment of the logo */
+    margin-left: 4px;
+    cursor: pointer;
+}
+.menu {
+    position: absolute;
+    height: 45px;
+    right: 0%;
+    margin-right: 20px; 
+    margin-top: 20px; 
+    visibility: hidden;
+}
+
+
+
+.navigation {
+    float: right;
+    height: 100%;
+
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 30px;
+    margin-top: 25px;
+}
+
+.navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: #2ae57c;
+    font-size: 20px;
+    font-family: "approach mono";
+    cursor: pointer;
+    margin-top: 20px;
+}
+.navigation a li:hover {
+    color: red;
+}
+
+.line-1 {
+    color: #2ae57c;
+    font-family: 'approach mono';
+    position: absolute;
+    top: 65%;
+    left: 04.5%;
+    font-size: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+
+}
+
+.active-line {
+    animation: 
+        typing 12s forwards;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+
+.line-1:hover{
+    color: red;
+    
+}
+.click{
+    color: red;
+    font-family: 'approach mono';
+    position: absolute;
+    top: 65%;
+    left: 04.5%;
+    font-size: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    content: 'hello';
+    
+}
+
+.second_text {
+    color: #2ae57c;
+    font-family: 'approach mono';
+    position: absolute;
+    top: 75%;
+    left: 04.5%;
+    
+    font-size: 20px;
+    cursor: pointer;
+    visibility: hidden;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    
+
+}
+.text_active{
+    visibility: visible;
+    animation: 
+        typing 12s forwards;
+}
+
+.text_active_2 {
+    visibility: visible;
+}
+
+.second_text:hover{
+    color: red;
+}
+
+.click2{
+    color: red;
+}
+
+.third_text {
+    color: #2ae57c;
+    font-family: 'approach mono';
+    position: absolute;
+    top: 85%;
+    left: 04.5%;
+
+    font-size: 20px;
+    cursor: pointer;
+    visibility: hidden;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.text_active2{
+    visibility: visible;
+    animation: 
+        typing 12s forwards;
+}
+.third_text:hover{
+    color: red;
+}
+
+.click3{
+    color: red;
+}
+
+#output {
+    color: #2ae57c;
+    font-family: 'approach mono';
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+
+
+
+@media only screen and (max-width:768px){
+    .terminal {
+        background-image: url(Images/Final.jpg);
+        width: 365px;
+        height: 280px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .btn {
+        width: 200px;
+        height: 75px;
+        font-size: 20px;
+        font-family: 'approach mono' ;
+        color: #2ae57c;
+        background-color: black;
+        border: 2px solid #2ae57c;
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        cursor: pointer;
+        
+        
+    }
+
+    .terminal2 {
+        background-image: url(Images/Final.jpg);
+        width: 365px;
+        height: 280px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        visibility: hidden;
+    }
+    
+    
+    
+    
+    *{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+    }
+    
+    .logo_container {
+        height: 100%;
+        display: table;
+        float: left;
+    }
+    
+    .logo_container div{
+        height: 100%;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    
+    .logo_container img{
+        position: absolute;
+        height: 35px;
+        margin-top: 23px; /* Optical alignment of the logo */
+        margin-left: 4px;
+    }
+    
+    .header{
+        width: 100%;
+        height: 80px;
+        display: block;
+        background-color: #003414;
+        
+    }
+
+    .inner{
+        width: 96%; /* This is the inner width of the content inside of your header (80%, etc) */
+        height: 100%;
+        display: block;
+        margin: 0 auto;
+        background-color: #003414;
+    }
+    
+    
+    .navigation {
+        width: 100%;
+        height: 30%;
+        background-color: #003414;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    
+    }
+    .menu {
+        visibility: visible;
+        cursor: pointer;
+    }
+    
+    .navigation a{
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        visibility: visible;
+       
+    }
+
+    .sidebar_visible {
+        visibility: visible;
+    }
+    
+    .navigation a li {
+        
+        height: 100%;
+        color: #2ae57c;
+        font-size: 10px;
+        font-family: "approach mono";
+        cursor: pointer;
+    }
+    
+}
+    
+
+    
